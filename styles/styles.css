@@ -23,19 +23,63 @@ li{
     display: inline-block;
     margin: 20px;
 }
-main{
+a{
+    color: white;
+}
+a:hover{
+    color:rgb(132, 14, 201);
+    transition: 0.3s all;
+}
+#inscr{
+    border: 2px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 15px;
+}
+#inscr:hover{
+    background-color: rgb(132, 14, 201);
+    color: white;
+}
+
+main {
     display: flex;
     flex-direction: row;
     margin-top: 50px;
 }
+img{
+    width: 500px;
+}
 h2{
     font-size: 56px;
     line-height: 10px;
-    font-family: poppins;
+    font-family: poppinsmedium;
 }
 span{
     color: rgb(132, 14, 201);
 }
 p{
     line-height: 20px;
+    max-width: 500px;
+    font-family: poppinslight;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+#envio{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(132, 14, 201);
+    color: white;
+    font: bold;
+}
+#envio:hover{
+    cursor: pointer;
+}
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
 }
